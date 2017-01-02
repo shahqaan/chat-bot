@@ -31,7 +31,11 @@ module.exports = (router) => {
 
       console.log('Received: ', data);
 
-      res.json({answer: data.output.text});
+      if (data.context.get_tags) {
+        res.json({answer: 'Biotechnology'});
+      } else {
+        res.json({answer: data.output.text[0]});
+      }
     });
 
   });

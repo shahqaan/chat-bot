@@ -40,7 +40,7 @@ describe('Array', function() {
     it.only('should successfully read message', function (done) {
       request(mock)
         .post('/api/v1/chats/watson')
-        .send({message: "What is my name?"})
+        .send({message: "yes"})
         .expect(200)
         .end(function (err, res) {
           console.log(res.body);
