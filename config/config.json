@@ -27,6 +27,16 @@
       }
     }
   },
+  "watson": {
+    "conversation": {
+      "credentials": {
+        "url": "https://gateway.watsonplatform.net/conversation/api",
+        "password": "ovJrWAPEk68o",
+        "username": "45dd48e2-edf4-466e-910d-a8029fd08c94"
+      },
+      "workspaceId": "4b819ddb-e2dc-48b1-93c4-171c4684712a"
+    }
+  },
   "app": {
     "url": ""
   }

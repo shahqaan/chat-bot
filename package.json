@@ -41,6 +41,7 @@
     "require-dir": "0.3.1",
     "restify": "4.3.0",
     "sleep": "5.0.0",
+    "watson-developer-cloud": "2.14.4",
     "webpack": "1.14.0",
     "xml2js": "0.4.17"
   },

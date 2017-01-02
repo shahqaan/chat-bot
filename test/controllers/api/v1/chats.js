@@ -29,7 +29,7 @@ describe('Array', function() {
 
     it('should through error without message', function (done) {
       request(mock)
-        .post('/api/v1/chats')
+        .post('/api/v1/chats/watson')
         .expect(400)
         .end(function (err, res) {
           res.status.should.equal(400);
@@ -39,7 +39,7 @@ describe('Array', function() {
 
     it.only('should successfully read message', function (done) {
       request(mock)
-        .post('/api/v1/chats')
+        .post('/api/v1/chats/watson')
         .send({message: "What is my name?"})
         .expect(200)
         .end(function (err, res) {
